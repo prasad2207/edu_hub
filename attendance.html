@@ -1,0 +1,199 @@
+<html>
+  <head> 
+    <title>eduHUB Home</title>
+       <link rel="stylesheet" href="attendance.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+      </head>
+<body>
+  <nav class="navbar navbar-light" style="background-color: #f0fff0;">
+
+    <div class="container-fluid forNavbar">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="student_homepage.html">home</a>
+        <a href="attendance.html">attendace</a>
+        <a href="assignment.html">assignment</a>
+        <a href="#">notes</a>
+        <a href="notice.html">notice</a>
+        <a href="faculty_help.html">Faculty help</a>
+        <a href="#">Result</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><b><i class="fas fa-bars fa-2x"></i></b></button>  
+      </div> 
+          
+      <a class="navbar-brand" href="#"style="color:red"></a>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    
+    </div>
+    <div class="btn-group dropstart">
+      <button type="button" class="btn btn btn-link btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-user-cog fa-2x"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="About_devloper.html">about devlopers </a></li>
+    <li><a class="dropdown-item" href="#">profile</a></li>
+    <li><a class="dropdown-item" href="#">change password</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="loginpage.html">logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid getStarted">
+    <div class="row">
+      <table class="table table-bordered border-dark">
+        <thead>
+          <tr >
+            <th scope="col">month</th>
+            <th scope="col">sub1</th>
+            <th scope="col">sub2</th>
+            <th scope="col">sub3</th>
+            <th scope="col">sub4</th>
+            <th scope="col">sub5</th>
+            <th scope="col">monthly total </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">jan</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">feb</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">march</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">april</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">May</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        <tr>
+             <th scope="row">june</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+         <tr>
+                <th scope="row">july</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">aug</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+              </tr>
+              <tr>
+                <th scope="row">sept</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">oct</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">nov</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">dec</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">subject total </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          </tr>
+        </tbody>
+      </table>
+   </div>
+ </div>
+  
+    <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+       
+    </body>
+    </html> 
+    

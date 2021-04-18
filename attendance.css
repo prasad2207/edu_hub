@@ -1,0 +1,124 @@
+
+
+.navbar .navbar-brand {
+  
+  font-size: 30px;
+  margin-left: 0%;
+  font-weight: bold;
+
+}
+.navbar .btn-group .btn
+ {
+text-decoration:none;
+color:#65000b;
+
+ } 
+
+ 
+.forNavbar{
+  margin-right: 40px;
+  
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(170,240,209);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1b4d3e;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #800000;
+    font-size: 35px;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f0fff0;
+    color: #004225;
+
+    border: none;
+  }
+  
+  .openbtn:hover {
+   color: black;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    
+  }
+
+  
+.getStarted{
+  margin-right:40px ;
+  background-color: #f0fff0;
+background-size: cover;
+padding-bottom: 20%;
+
+}
+
+
+
+.row{
+  text-align: center;
+      height: 500;
+  padding-top: 5%;
+  width: 50%;
+  margin-left: 30%;
+  
+}
+.table{
+ text-align: center;
+ margin-left: 40%;
+ margin-top: 20%;
+ 
+ 
+}
+.table thead{
+  background-color: skyblue;
+}
+.table tbody{
+  background-color: black;
+  color: skyblue;
+}
+
+
+
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  

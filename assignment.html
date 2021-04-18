@@ -1,0 +1,97 @@
+<html>
+  <head> 
+    <title>eduHUB Home</title>
+       <link rel="stylesheet" href="assignment.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+      </head>
+<body>
+  <nav class="navbar navbar-light" style="background-color: #f0fff0;">
+
+    <div class="container-fluid forNavbar">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="student_homepage.html">Home</a>
+        <a href="attendance.html">attendace</a>
+        <a href="assignment.html">assignment</a>
+        <a href="#">notes</a>
+        <a href="notice.html">notice</a>
+        <a href="faculty_help.html">faculty help</a>
+        <a href="#">result</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"><b><i class="fas fa-bars fa-2x"></i></b></button>  
+      </div> 
+          
+      <a class="navbar-brand" href="#"style="color:red"></a>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    
+    </div>
+    <div class="btn-group dropstart">
+      <button type="button" class="btn btn btn-link btn-md dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-user-cog fa-2x"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="About_devloper.html">about devlopers </a></li>
+    <li><a class="dropdown-item" href="#">profile</a></li>
+    <li><a class="dropdown-item" href="#">change password</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="loginpage.html">logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid services">
+
+    <div class="row ">
+      <div class="col-md-12 ">
+        <div class="card">
+           <div class="select_sub">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>select suject </option>
+                <option value="1">CSS</option>
+                <option value="2">DWM</option>
+                <option value="3">SWE</option>
+              </select>
+            </div>
+            <div class="select_num">
+            <select class="form-select" aria-label="Default select example">
+                <option selected> assignment number</option>
+                <option value="1">ass-1</option>
+                <option value="2">ass-2</option>
+                <option value="3">ass-3</option>
+              </select>
+            </div>
+            <div class="upload">
+                <input type="file" id="file-uploader">
+                <p id="feedback"></p>
+              </div>
+        <div class="sub_but">
+            <button type="button" class="btn btn-success">submit</button>
+        </div>
+
+        </div>
+     </div>
+ </div>
+  </div>
+     
+  
+  
+    <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+       
+    </body>
+    </html> 
+    

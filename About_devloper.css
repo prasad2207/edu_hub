@@ -1,0 +1,197 @@
+
+
+.navbar .navbar-brand {
+  
+  font-size: 30px;
+  margin-left: 0%;
+  font-weight: bold;
+
+}
+.navbar .btn-group .btn
+ {
+text-decoration:none;
+color:#65000b;
+
+ } 
+
+ 
+.forNavbar{
+  margin-right: 40px;
+  
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(170,240,209);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1b4d3e;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #800000;
+    font-size: 35px;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f0fff0;
+    color: #004225;
+
+    border: none;
+  }
+  
+  .openbtn:hover {
+   color: black;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    
+  }
+  
+  .services{
+    background-color: #f0fff0;
+       background-attachment: fixed;
+    background-size: cover;
+    }
+    .services .row{
+        height: 450px;
+    }
+    .services h2{
+        padding: 50px 0;
+        font-size: 45px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 750;
+    
+    }
+    .services .row .col-md-4{
+        align-self: center;
+        padding-left: 110px;
+    }
+    
+    .services .card{
+        width:270px;
+        height: 400px;
+        border-radius: 9px;
+        background-color: #ffcfdf;
+        background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+        justify-content: center;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+    
+    }
+    .services .card-img-top{
+        width: 250px;
+        height: 350px;
+       margin-left: 10px;
+        align-self: center;
+        object-fit: cover;
+        
+    }
+    .services .card-body .card-title{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    
+    
+    }
+     .card-body .card-text{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    
+    
+    }
+    .services a{
+        color:#e04bcc; 
+        text-decoration: none;
+        margin-top: 100px;
+    }
+    .services a:hover{
+        color: rgb(142, 30, 194);
+    } 
+     .services h2{
+      font-family: 'Courgette', cursive;
+      background-color: #6b0f1a;
+background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+     margin: 0%;
+     }
+    
+  
+   
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  .flip-container {
+    perspective: 1000px;
+  }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+      transform: rotateY(180deg);
+    }
+  
+  .flip-container, .front, .back {
+    width: 270px;
+    height: 480px;
+  }
+  
+  /* flip speed goes here */
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+  
+    position: relative;
+  }
+  
+  /* hide back of pane during swap */
+  .front, .back {
+    backface-visibility: hidden;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+  
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+  }
